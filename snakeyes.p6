@@ -1,5 +1,5 @@
 sub MAIN (Int $rolls-per-turn) {
-  snakeyes ($rolls-per-turn);
+  snakeyes $rolls-per-turn;
 }
 
 sub snakeyes (Int $times) {
